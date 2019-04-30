@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
-const tools = require('../lib/index');
+const tools = require('../index');
 
-describe('cpfValidator()', () => {
+describe('cpfValidator', () => {
   it('Return true for valid CPF', () => {
     expect(tools.cpfValidator('06944320673')).to.be.true;
   });
