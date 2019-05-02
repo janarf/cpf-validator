@@ -7,7 +7,7 @@ function checkLength(arr) {
 }
 
 function checkEqualDigits(arr) {
-  return !arr.every(v => v === arr[0]);
+  return !arr.every(element => element === arr[0]);
 }
 
 function sumAndMultiply(arr, secondDigit) {
@@ -15,8 +15,8 @@ function sumAndMultiply(arr, secondDigit) {
   if (secondDigit === true) {
     digitsCut = 1;
   }
-  return arr.slice(digitsCut, 11).reduce((acc, element, i) => {
-    return acc + element * (i + 2);
+  return arr.slice(digitsCut, 11).reduce((acc, element, index) => {
+    return acc + element * (index + 2);
   }, 0);
 }
 
