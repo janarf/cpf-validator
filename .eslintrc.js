@@ -76,7 +76,7 @@ module.exports = {
     ],
     'no-multiple-empty-lines': [
       'error', {
-        'max': 0,
+        'max': 1,
         'maxBOF': 1
       }
     ],
