@@ -1,4 +1,4 @@
-# Validador de CPF v.1.0.3
+# Validador de CPF v.1.0.2
 
 **Esta biblioteca se destina à classificação de strings como CPFs válidos ou inválidos.**
 Na versão atual é capaz validar strings retornando `true` para CPF válido e `false` para CPF inválido.
@@ -39,5 +39,5 @@ $  npm install cpfvalidatorjanarf
 
 ## roadmap oficial do projeto
 
-#### versão 1.0.3 (released)
+#### versão 1.0.2 (released)
 - funcionalidades: valida strings para CPF válido ou inválido.
