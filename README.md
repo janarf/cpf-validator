@@ -1,6 +1,6 @@
 # Validador de CPF v.1.0.3
 
-**Esta biblioteca se destina à validação de CPFs válidos.**
+**Esta biblioteca se destina à classificação de strings como CPFs válidos ou inválidos.**
 Na versão atual é capaz validar strings retornando `true` para CPF válido e `false` para CPF inválido.
 
 ## Como instalar:
