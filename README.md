@@ -37,7 +37,6 @@ $  npm install cpfvalidatorjanarf
 
 ```
 
-## roadmap oficial do projeto
 
 #### versão 1.0.2 (released)
 - funcionalidades: valida strings para CPF válido ou inválido.

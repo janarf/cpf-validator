@@ -3,13 +3,10 @@ const checkEqualDigits = (arr) => !arr.every(element => element === arr[0]);
 const checkLength = (arr) => arr.length === 11;
 
 function sumAndMultiply(arr, secondDigit) {
-  let digitsCut = 2;
-  if (secondDigit === true) {
-    digitsCut = 1;
-  }
-  return arr.slice(digitsCut, 11).reduce((acc, element, index) => {
-    return acc + element * (index + 2);
-  }, 0);
+  let digitsCut;
+  (secondDigit) ? digitsCut = 1 : digitsCut = 2;
+  return arr.slice(digitsCut, 11)
+    .reduce((acc, element, index) => acc + element * (index + 2), 0);
 }
 
 function cpfValidator(cpfString) {
